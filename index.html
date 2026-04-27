@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cokoten Combined</title>
+    <link rel="stylesheet" href="style.css" />
+
+
+<body>
+
+
+
+
+
+    <!-- PAGE INDEX -->
+    <div id="page-index">
+
+        <div class="header">
+            <div class="navbar">
+                <h1 style="color: #e6dfd1;">COKOTEN</h1>
+                <nav>
+                    <ul>
+                        <li><a href="#page-index">HOME</a></li>
+                        <li><a href="#background">ABOUT US</a></li>
+                        <li><a href="#product">PRODUCT</a></li>
+                        <li><a href="#contactt">CONTACT</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+
+
+        <div class="slider">
+
+            <div class="slides fade">
+                <img src="https://xerothermic-bronze-w52ols0b3l.edgeone.app/1.png">
+            </div>
+
+            <div class="slides fade">
+                <img src="https://xerothermic-bronze-w52ols0b3l.edgeone.app/2.png">
+            </div>
+
+            <div class="slides fade">
+                <img src="https://quarrelsome-copper-sgyudmjoac.edgeone.app/3.png">
+            </div>
+
+
+
+
+
+            <!-- DOT -->
+            <div class="dots">
+                <span class="dot" onclick="currentSlide(1)"></span>
+                <span class="dot" onclick="currentSlide(2)"></span>
+                <span class="dot" onclick="currentSlide(3)"></span>
+            </div>
+
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+
+        </div>
+        <br>
+
+
+        <div class="containerbg" id="background">
+            <div class="bg-text">
+                <h1>BACKGROUND COKOTEN</h1>
+                <p>
+                    Cokoten lahir dari keyakinan bahwa sebuah kue tidak hanya sekadar hidangan, tetapi juga mampu
+                    menghadirkan kebahagiaan melalui setiap gigitannya. Nama Cokoten diambil dari bahasa Jawa yang
+                    berarti “gigit”, sebagai simbol harapan agar setiap orang dapat langsung merasakan kelezatan,
+                    kehangatan, dan cita rasa istimewa sejak gigitan pertama.
+
+                    Mengusung konsep kue rumahan, Cokoten dibuat dengan sepenuh hati dan perhatian terhadap setiap
+                    detail. Proses produksi dilakukan menggunakan bahan-bahan pilihan serta teknik pembuatan yang
+                    mengutamakan mutu, rasa, dan tampilan. Setiap produk dirancang untuk memberikan pengalaman menikmati
+                    kue yang sederhana namun berkesan.
+
+                    Cokoten berkomitmen untuk menghadirkan produk berkualitas yang tidak hanya memanjakan lidah, tetapi
+                    juga menciptakan rasa puas dan kebahagiaan bagi setiap pelanggan.
+                </p>
+            </div>
+
+            <a href="#product" class="btn">Lihat Produk</a>
+
+        </div>
+
+
+
+
+
+        <!-- Katalog produk -->
+
+        <div class="product-wrapper" id="product">
+            <div class="containerproduct" onclick="showDetail(1)">
+                <h3>A Whole Of Love</h3>
+                <img src="https://mid-orange-revdidgvel.edgeone.app/1.png">
+            </div>
+
+            <div class="containerproduct" onclick="showDetail(2)">
+                <h3>A Slice Of Love</h3>
+                <img src="https://mid-orange-revdidgvel.edgeone.app/2.png">
+            </div>
+
+            <div class="containerproduct" onclick="showDetail(3)">
+                <h3>Puding Sultan</h3>
+                <img src="https://mid-orange-revdidgvel.edgeone.app/3.png">
+            </div>
+        </div>
+
+
+        <section class="review">
+            <h2>Review Pelanggan</h2>
+
+            <div class="review-container">
+
+                <div class="review-box">
+                    <p>"Kuenya enak banget, lembut dan nggak terlalu manis. Recommended!"</p>
+                    <h4>-Nadia</h4>
+                </div>
+
+                <div class="review-box">
+                    <p>"Packaging rapi dan premium, cocok buat hadiah"</p>
+                    <h4>- Rina</h4>
+                </div>
+
+                <div class="review-box">
+                    <p>"Pelayanannya cepat dan rasanya bikin nagih!"</p>
+                    <h4>- Dinda</h4>
+                </div>
+
+            </div>
+        </section>
+
+
+
+        <!-- FOOTER -->
+        <div class="footer" id="contact">
+            <h2>CONTACT US</h2>
+
+            <!-- WhatsApp Button -->
+            <a class="contact-btn wa" href="https://wa.me/6281291323279" target="_blank">
+                <span>OUR WHATSAPP</span>
+            </a>
+
+            <!-- Instagram Button -->
+            <a class="contact-btn ig" href="https://www.instagram.com/cokoten_official_/" target="_blank">
+
+                <span>OUR INSAGRAM</span>
+            </a>
+        </div>
+    </div>
+
+
+
+
+
+    <!--Detail produk -->
+    <div id="page-detail" style="display:none;">
+
+        <div class="detail-container" id="detail1" style="display:none;">
+            <h2>A whole Of Love</h2>
+            <img class="detail-img" src="https://mid-orange-revdidgvel.edgeone.app/1.png" alt="Cokoten Original">
+            <p>A whole Of Love</p>
+            <p>Sebuah kue yang dibuat dengan penuh cinta, menghadirkan kelembutan tekstur dan rasa manis yang pas di
+                setiap potongannya.
+                Perpaduan rasa yang harmonis menjadikan A Whole of Love pilihan sempurna untuk merayakan momen spesial,
+                berbagi kebahagiaan,
+                atau sekadar memberi hadiah manis untuk diri sendiri.Karena setiap rasa punya cerita, dan kue ini dibuat
+                untuk menyampaikan cinta secara utuh.</p>
+            <p>Harga Rp 55.000</p>
+            <p>size 20x20 cm</p>
+            <a class="back" onclick="goBack()">Kembali</a>
+        </div>
+
+        <div class="detail-container" id="detail2" style="display:none;">
+            <h2>Slice Of Love</h2>
+            <img class="detail-img" src="https://mid-orange-revdidgvel.edgeone.app/2.png" alt="Cokoten Size Gede">
+            <p>Harga Rp 15.000</p>
+            <p>size 20x20</p>
+            <p> Perpaduan lembutnya kue coklat dengan rasa manis yang pas, dipadukan dengan
+                irisan strawberry segar yang memberi sentuhan asam-manis menyegarkan. Setiap potongan
+                menghadirkan harmoni rasa yang memanjakan lidah dan cocok untuk menemani momen self-reward kamu.
+                Nikmati kelezatan sederhana yang bikin hari terasa lebih spesial.</p>
+            <a class="back" onclick="goBack()">Kembali</a>
+        </div>
+
+        <div class="detail-container" id="detail3" style="display:none;">
+            <h2>Cokoten Puding Sultan </h2>
+            <img class="detail-img" src="https://mid-orange-revdidgvel.edgeone.app/3.png">
+            <p>Harga Rp 5.000</p>
+            <p>Puding silky yang super lembut, dibuat dari coklat premium pilihan dengan cita rasa kaya dan elegan.
+                Teksturnya halus dan langsung lumer di mulut, menghadirkan sensasi manis yang mewah di setiap suapan.
+                Cocok untuk kamu yang ingin menikmati dessert istimewa dengan rasa coklat yang autentik dan memanjakan.
+            </p>
+            <a class="back" onclick="goBack()">Kembali</a>
+        </div>
+    </div>
+
+
+    <!-- JAVASCRIPTnya gak tau ini gimana -->
+
+
+    <script src="cokoten.js" defer></script>
+    </head>
+</body>
+
+</html>
